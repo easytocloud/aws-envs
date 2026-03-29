@@ -57,7 +57,7 @@ asp
 # Enter profile number [1-3]> _
 
 # Create a new empty environment
-ase --init new-org
+ase --add new-env
 ```
 
 The `ase` and `asp` shell functions are provided by the [oh-my-easytocloud](https://github.com/easytocloud/oh-my-easytocloud) plugin for oh-my-zsh. See that repo for installation and prompt integration.
@@ -96,7 +96,7 @@ After setup, install [oh-my-easytocloud](https://github.com/easytocloud/oh-my-ea
 ## Adding More Environments
 
 ```zsh
-ase --init my-org-2
+ase --add my-org-2
 aws configure --profile my-first-account
 ```
 
