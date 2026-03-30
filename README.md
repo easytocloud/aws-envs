@@ -60,7 +60,7 @@ asp
 ase --add new-env
 ```
 
-The `ase` and `asp` shell functions are provided by the [oh-my-easytocloud](https://github.com/easytocloud/oh-my-easytocloud) plugin for oh-my-zsh. See that repo for installation and prompt integration.
+The shell integration is provided by the [oh-my-easytocloud](https://github.com/easytocloud/oh-my-easytocloud) plugin for oh-my-zsh, which extends the standard [aws plugin](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/aws) that ships with oh-my-zsh. If you already use that plugin, you know `asp` for switching profiles — `ase` adds environment switching one level above it, using the same conventions. See the oh-my-easytocloud repo for installation and prompt integration.
 
 ## Initial Setup
 
