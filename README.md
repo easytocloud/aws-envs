@@ -104,7 +104,7 @@ aws configure --profile my-first-account
 
 - Use `aws configure` as normal — it writes to whichever environment is currently active
 - `aws sso login` works per-environment; CLI v2 SSO is fully supported
-- Consider [sso-tools](https://github.com/easytocloud/sso-tools) for SSO-specific helpers
+- Consider [ssostart](https://github.com/easytocloud/ssostart) for environment-aware SSO login (`brew install easytocloud/tap/ssostart`)
 - A prompt that shows the active environment and profile prevents costly mistakes — [oh-my-easytocloud](https://github.com/easytocloud/oh-my-easytocloud) provides this out of the box
 
 ## Legacy
